@@ -1,0 +1,47 @@
+.inicio{
+    background-color: #2760ff;
+    border-radius: 10px;
+}
+
+.texto01 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2760ff;  
+    font-size: 10px;
+}
+
+#formTitle {
+    font-size: 24px;
+}
+
+#header {
+    color: #ffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 513px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    top: 230px;
+    position: absolute;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #2980b9;
+  }
+
+  tr:hover {
+    background-color: #4ec496;
+    color: #fff;
+  }

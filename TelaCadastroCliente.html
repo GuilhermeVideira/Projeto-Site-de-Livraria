@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Livraria - Virtual </title>
+
+  <link rel="shortcut icon" href="./imagens/DomentosImagens.png" type="image/x-icon">
+
+   <link rel="stylesheet" href="css/TelaCadastroCliente.css">
+
+</head>
+<body>
+
+  <div id="container">
+    
+    <div id="header" class="inicio">
+      <span class="texto01"> . </span> <br> 
+      <span id="formTitle">Cadastro do Cliente</span> <br>
+      <span class="texto01"> . </span>
+    </div>
+
+    <div id="formContainer">
+
+
+      <div class="posicao"> <span class="texto03"> -- Registre os dados -- </span> </div>
+
+      <form method="post" action="./RegistrarCliente.php">
+     
+        <br> <br> <br> <br> <br>
+
+        <div class="posicaotexto00"> <span class="texto02"> Código: </span> </div>
+        <input id="cd_cliente" name="cd_cliente" type="number" placeholder="01" disabled>
+
+        <div class="posicaotexto07"> <span class="texto02"> Nome: </span> </div>
+        <input id="nm_cliente" name="nm_cliente" type="text" placeholder="Nome" required> 
+      
+        <div class="posicaotexto01"> <span class="texto02"> Endereço: </span> </div>
+        <input id="nm_endereco" name="nm_endereco" type="text" placeholder="Endereço" required>        
+    
+        <div class="posicaotexto04"> <span class="texto02"> N° E.  : </span> </div>
+        <input id="nr_endereco" name="nr_endereco" type="number" placeholder="Número de Endereço" required>
+
+        <div class="posicaotexto02"> <span class="texto02"> CPF: </span> </div>
+        <input id="nr_cpf" name="nr_cpf" type="text" placeholder="CPF" required>  
+
+        <div class="posicaotexto05"> <span class="texto02"> CNPJ: </span> </div>
+        <input id="nr_cnpj" name="nr_cnpj" type="text" placeholder="CNPJ" required> 
+
+        <div class="posicaotexto03"> <span class="texto02"> Senha: </span> </div>
+        <input id="nr_senha" name="nr_senha" type="number" placeholder="Número da senha" required>
+
+        <div class="posicaotexto06"> <span class="texto02"> Telefone: </span> </div>
+        <input id="nr_telefone" name="nr_telefone" type="tel" placeholder="Número de Telefone" required>
+        
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+        <br><br>
+
+       </form>
+
+        <a href="index.html">
+        <button>Voltar</button>
+        </a>
+
+    </div>
+  </div>
+
+</body>
+</html>

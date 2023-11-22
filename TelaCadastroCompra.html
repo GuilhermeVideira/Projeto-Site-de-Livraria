@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Livraria - Virtual </title>
+
+  <link rel="shortcut icon" href="./imagens/DomentosImagens.png" type="image/x-icon">
+
+   <link rel="stylesheet" href="css/TelaRegistrarCompra.css">
+
+</head>
+<body>
+
+  <div id="container">
+    
+    <div id="header" class="inicio">
+      <span class="texto01"> . </span> <br> 
+      <span id="formTitle"> Registrar Compra do Livro</span> <br>
+      <span class="texto01"> . </span>
+    </div>
+
+    <div id="formContainer">
+
+
+      <div class="posicao"> <span class="texto03"> -- Registre os dados -- </span> </div>
+
+      <form method="post" action="RegistrarCompra.php">
+
+        <br> <br> <br> <br> <br>
+
+        <div class="posicaotexto00"> <span class="texto02"> Código: </span> </div>
+        <input id="cd_compra" name="cd_compra" type="number" placeholder="01" disabled>
+
+        <div class="posicaotexto07"> <span class="texto02"> Nome: </span> </div>
+        <input id="nm_livro" name="nm_livro" type="text" placeholder="Nome do livro" required> 
+      
+        <div class="posicaotexto01"> <span class="texto02"> Data: </span> </div>
+        <input id="dt_compra" name="dt_compra" type="date" placeholder="Valor do Livro" required>        
+    
+        <div class="posicaotexto04"> <span class="texto02"> Valor: </span> </div>
+        <input id="vl_compra" name="vl_compra" type="number" placeholder="Valor do Livro" required>
+
+        <div class="posicaotexto02"> <span class="texto02"> Editora: </span> </div>
+        <input id="nm_editora" name="nm_editora" type="text" placeholder="Nome da Editora do Livro" required>  
+
+        <div class="posicaotexto05"> <span class="texto02"> Cliente: </span> </div>
+        <input id="cd_cliente" name="cd_cliente" type="number" placeholder="Código do Cliente" required> 
+        
+        <br><br>
+
+        <button type="submit">Registrar Compra</button>
+
+        <br><br>
+
+      </form>
+
+        <a href="./TelaHomeCliente.html"> 
+        <button type="submit">Voltar</button>
+        </a>
+
+   
+
+    </div>
+  </div>
+
+</body>
+</html> 

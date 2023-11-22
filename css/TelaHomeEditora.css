@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 130vh; 
+    background: linear-gradient(to bottom, #3498db, #e0fdff 50%, #ffffff 50%);
+    overflow-x: hidden;
+}
+
+.content {
+    padding: 10px; 
+  }
+
+.texto01 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffff;  
+    font-size: 45px;
+    margin-left: 40px; 
+}
+
+.texto02 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffffff;  
+    font-size: 20px;
+    margin-left: 40px; 
+}
+
+.card {
+    transition: transform 0.3s; 
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.card a {
+    text-decoration: none;
+}
+  
+  .card a:hover {
+    text-decoration: none;
+}

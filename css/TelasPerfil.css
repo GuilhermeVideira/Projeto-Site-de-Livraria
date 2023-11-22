@@ -1,0 +1,33 @@
+#profile-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2760ff;
+}
+
+#profile-image {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+#profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2760ff;
+}
+
+#profile-description {
+    font-size: 16px;
+    color: #2760ff;
+}
+
+.texto01 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2760ff;  
+    font-size: 45px;
+    margin-left: 110px;
+}   

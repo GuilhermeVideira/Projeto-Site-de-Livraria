@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.blue-bg {
+    background: linear-gradient(to bottom, #3498db, #e0fdff);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.imagem{
+    background: transparent;
+    width: 700px; 
+    height: auto;
+    left: 16px;
+    top: 120px;
+    position: absolute;
+}
+
+.texto01 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2760ff;  
+    font-size: 45px;
+}   
+
+.texto02 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #3498db;  
+    font-size: 15px;
+}  
+
+.texto03 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffff;  
+    font-size: 45px;
+    left: 26px;
+    top: 90px;
+    position: absolute;
+}   
+
+.posicaotexto{
+    left: 880px;
+    position: absolute;
+}
+
+.posicaotexto2{
+    left: 733px;
+    position: absolute;
+}
+
+.posicaotexto3{
+    left: 923px;
+    position: absolute;
+}
+
+.posicaotexto4{
+    left: 954px;
+    position: absolute;
+}
+
+
+.posicao{
+    left: 738px;
+    position: absolute;
+}
+
+.login-container input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #2760ff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 730px;
+}
+
+.login-container select {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #2760ff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 730px;
+}
+
+.login-container button {
+    width: 40%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 730px;
+    transition: background-color 0.7s, color 0.7s; 
+}
+
+.login-container button:hover {
+    background-color: #2760ff;
+}
+
+
+.botoes-container {
+    display: flex;
+}
+
+.botao {
+    margin: 5px;
+    padding: 10px 100px;
+    border: 2px solid #3498db; 
+    color: #3498db; 
+    background-color: #fff; 
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.7s, color 0.7s; 
+  }
+  
+.botao:hover {
+    background-color: #3498db; 
+    color: #fff; 
+}
+
+.linha {
+    height: 2px;
+    width: 500px; 
+    background-color: #3498db;
+    margin: 0 10px; 
+}

@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #3498db, #e0fdff);
+}
+
+#container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 50px; 
+    margin-right: 50px; 
+    box-shadow: 0 0 10px rgba(38, 4, 231, 0.925);
+}
+
+#header {
+    color: #ffff;
+    margin-bottom: 20px;
+}
+
+#formTitle {
+    font-size: 24px;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.7s, color 0.7s; 
+}
+
+button:hover{
+    background-color: #2760ff;
+}
+
+.inicio{
+    background-color: #2760ff;
+    border-radius: 10px;
+}
+
+.texto01 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2760ff;  
+    font-size: 10px;
+}
+
+.texto02 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #3498db;  
+    font-size: 15px;
+}  
+
+.texto03 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2760ff;  
+    font-size: 25px;
+}   
+
+input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #2760ff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 110px;
+}
+
+input:disabled {
+    background-color: #e6f0ff; 
+    color: #999; 
+}
+
+.posicaotexto00{
+    top: 249px;
+    left:135px;
+    position: absolute;
+}
+
+.posicaotexto01{
+    top: 309px;
+    left:135px;
+    position: absolute;
+}
+
+.posicaotexto02{
+    top: 369px;
+    left: 96px;;
+    position: absolute;
+}
+
+.posicaotexto03{
+    top: 431px;
+    left:142px;
+    position: absolute;
+}
+
+.posicaotexto04{
+    top: 309px;
+    left: 723px;
+    position: absolute;
+}
+
+.posicaotexto05{
+    top: 370px;
+    left:726px;
+    position: absolute;
+}
+
+.posicaotexto06{
+    top: 431px;
+    left:723px;
+    position: absolute;
+}
+
+.posicaotexto07{
+    top: 249px;
+    left:740px;
+    position: absolute;
+}
+
+.posicao{
+    top: 155px;
+    left:140px;
+    position: absolute;
+}
+
+

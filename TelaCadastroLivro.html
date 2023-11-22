@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Livraria - Virtual </title>
+
+  <link rel="shortcut icon" href="./imagens/DomentosImagens.png" type="image/x-icon">
+
+   <link rel="stylesheet" href="css/TelaRegistrarLivro.css">
+
+</head>
+<body>
+
+  <div id="container">
+    
+    <div id="header" class="inicio">
+      <span class="texto01"> . </span> <br> 
+      <span id="formTitle"> Cadastro do Livro </span> <br>
+      <span class="texto01"> . </span>
+    </div>
+
+    <div id="formContainer">
+
+
+      <div class="posicao"> <span class="texto03"> -- Registre os dados -- </span> </div>
+
+      <form method="post" action="./RegistrarLivro.php">
+
+        <br> <br> <br> <br> <br>
+
+        <div class="posicaotexto00"> <span class="texto02"> ISBN: </span> </div>
+        <input id="cd_isbn" name="cd_isbn" type="number" placeholder="Código do Livro" required>
+
+        <div class="posicaotexto07"> <span class="texto02"> Nome: </span> </div>
+        <input id="nm_livro" name="nm_livro" type="text" placeholder="Nome do Livro" required> 
+      
+        <div class="posicaotexto01"> <span class="texto02"> Autor: </span> </div>
+        <input id="nm_autor" name="nm_autor" type="text" placeholder="Nome do Autor" required>        
+    
+        <div class="posicaotexto04"> <span class="texto02"> Assunto: </span> </div>
+        <input id="nm_assunto" name="nm_assunto" type="text" placeholder="Categoria/Assunto do Livro" required>
+
+        <div class="posicaotexto02"> <span class="texto02"> Quantidade: </span> </div>
+        <input id="nr_quantidade" name="nr_quantidade" type="number" placeholder="Quantidade de Livros no Estoque" required>  
+
+        <div class="posicaotexto05"> <span class="texto02"> Editora: </span> </div>
+        <input id="nr_editora" name="nr_editora" type="number" placeholder="Código da Editora" required> 
+
+        <div class="posicaotexto03"> <span class="texto02"> Data: </span> </div>
+        <input id="dt_livro" name="dt_livro" type="date" placeholder="Data de Publicação" required>
+
+        <div class="posicaotexto06"> <span class="texto02"> Imagem: </span> </div>
+        <input type="file" id="imagem_livro" name="imagem_livro" accept="image/*">
+        
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+        <br><br>
+
+      </form>
+
+      <a href="./TelaHomeEditora.html">
+        <button type="submit">Voltar</button>
+      </a>
+   
+
+    </div>
+  </div>
+
+</body>
+</html> 

@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 130vh; 
+    background: linear-gradient(to bottom, #3498db, #e0fdff 0.1%, #ffffff 0.1%); 
+    overflow-x: hidden;
+  }
+
+  .content {
+    padding: 10px; 
+  }
+
+.texto01 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffff;  
+    font-size: 45px;
+    margin-left: 40px; 
+}
+
+.texto02 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ffffff;  
+    font-size: 20px;
+    margin-left: 40px; 
+}
+
+.texto03 {
+    color: rgba(38, 4, 231, 0.925);  
+}
+
+.texto04 {
+    color: #3498db;  
+    text-decoration: none;
+}
+
+.texto05 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2760ff;  
+    font-size: 40px;
+    margin-left: 40px; 
+} 
+
+.card {
+    transition: transform 0.3s; 
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.card a {
+    text-decoration: none;
+}
+  
+  .card a:hover {
+    text-decoration: none;
+}
+
+.linha {
+    height: 2px;
+    width: 1310px; 
+    background-color: #3498db;
+    margin: 0 10px; 
+}
+
+.linha2 {
+    height: 2px;
+    width: 1310px; 
+    background-color: #ffff;
+    margin: 0 10px; 
+}
+
+#container {
+    text-align: center;
+    background-color: #2760ff;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 38%; 
+    margin-right: 10px; 
+    top: 970px;
+    position: absolute;
+}
+
+#formTitle {
+    font-size: 24px;
+}
+
+.posicaocartao{
+    margin-left: 38%; 
+    top: 1100px;
+    position: absolute;
+}
+
+.card-img-top {
+    width: auto; 
+    height: 400px;
+} 
+
+#container2 {
+    text-align: center;
+    background-color: #2760ff;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 38%; 
+    margin-right: 10px; 
+    top: 1790px;
+    position: absolute;
+}
+
+.posicaocartao2{
+    margin-left: 38%; 
+    top: 1900px;
+    position: absolute;
+}
+
+#container3 {
+    text-align: center;
+    background-color: #2760ff;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 38%; 
+    margin-right: 10px; 
+    top: 2640px;
+    position: absolute;
+}
+
+.posicaocartao3{
+    margin-left: 38%; 
+    top: 2760px;
+    position: absolute;
+}
